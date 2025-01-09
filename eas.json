@@ -6,10 +6,12 @@
   "build": {
     "base": {
       "ios": {
-        "image": "latest"
+        "image": "latest",
+        "resourceClass": "large"
       },
       "android": {
-        "image": "latest"
+        "image": "latest",
+        "resourceClass": "large"
       }
     },
     "development": {
