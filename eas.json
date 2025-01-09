@@ -9,10 +9,7 @@
         "image": "latest"
       },
       "android": {
-        "image": "latest",
-        "cache": {
-          "paths": ["../../.gradle/caches"]
-        }
+        "image": "latest"
       }
     },
     "development": {
