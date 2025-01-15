@@ -41,6 +41,10 @@
       "extends": "base",
       "autoIncrement": true,
       "channel": "production"
+    },
+    "custom-build": {
+      "extends": "preview-simulator",
+      "config": "build.yml"
     }
   },
   "submit": {

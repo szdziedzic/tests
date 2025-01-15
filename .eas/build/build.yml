@@ -1,0 +1,4 @@
+build:
+  name: Run tests
+  steps:
+    - eas/build
