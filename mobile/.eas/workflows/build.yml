@@ -4,5 +4,5 @@ jobs:
   build:
     type: build
     params:
-      profile: preview-simulator
+      profile: staging-ci
       platform: ios

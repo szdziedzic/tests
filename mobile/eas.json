@@ -45,6 +45,25 @@
     "custom-build": {
       "extends": "preview-simulator",
       "config": "build.yml"
+    },
+    "staging-ci": {
+      "bun": "1.1.38",
+      "autoIncrement": true,
+      "developmentClient": false,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "image": "latest"
+      },
+      "ios": {
+        "simulator": true,
+        "image": "latest"
+      },
+      "environment": "preview",
+      "env": {
+        "EXPO_PUBLIC_APP_ENV": "preview"
+      },
+      "withoutCredentials": true
     }
   },
   "submit": {
