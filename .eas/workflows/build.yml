@@ -1,0 +1,8 @@
+name: Build
+
+jobs:
+  build:
+    type: build
+    params:
+      profile: preview-simulator
+      platform: ios
